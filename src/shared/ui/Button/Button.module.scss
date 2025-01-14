@@ -1,0 +1,32 @@
+.Button{
+  padding: 1rem 2rem;
+
+  border-radius: .5em;
+
+  background-color: rgb(154,167,119);
+
+  user-select: none;
+
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(31,31,51);
+
+  cursor: pointer;
+}
+
+.Button:hover{
+  background-color: rgb(161,184,102);
+}
+
+
+.followingSeries{
+  margin-right: 3em;
+}
+
+.allSeries {
+  margin-top: 2em;
+}
+
+.previousSeries{
+  margin-left: 3em;
+}

@@ -1,0 +1,25 @@
+.evidence{
+  max-width: 282px;
+
+  padding: 10px;
+  border: 2px solid rgb(60,76,64);
+  margin: 0 16px 8px 0;
+
+  font-size: 12px;
+
+  border-radius: 1em;
+
+  background-color: rgb(54,58,55);
+
+  color: rgb(205,205,212);
+  line-height: 1.8em;
+
+  user-select: none;
+
+  span{
+    font-size: 18px;
+
+    border-bottom: 1px solid #8ca38f;
+  }
+  
+}

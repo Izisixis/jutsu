@@ -1,0 +1,42 @@
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+  button{
+    margin: .3em;
+    
+    border-radius: 50%;
+
+    background-color: #212722;
+    box-shadow: 1px 1px 0 0 #1f1f1f, inset 1px 1px 1px #606661;
+  }
+
+  .socialLink1{
+    width: 42px;
+    height: 42px;
+
+    cursor: pointer;
+
+    background:  url(https://gen.jut.su/templates/school/images/plus_ico_green.png) center no-repeat  rgb(33,39,34);
+  }
+
+  .socialLink2{
+    width: 46px;
+    height: 46px;
+
+    cursor: pointer;
+
+    background: url(https://gen.jut.su/templates/school/images/vk_ico.png) center no-repeat rgb(33,39,34);
+  }
+
+  .socialLink3{
+    width: 56px;
+    height: 56px;
+
+    cursor: pointer;
+
+    background: url(https://gen.jut.su/templates/school/images/yt_ico.png) center no-repeat rgb(33,39,34);
+  }
+
+}

@@ -1,0 +1,60 @@
+.profile{
+
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: center;
+  align-self: center;
+
+  .profileImg{
+    position:relative;
+    
+    left: 88px;
+
+    width: 43px;
+    height: 43px;
+
+    margin: 4px 10px 0 0;
+
+    background-image: url(https://gen.jut.su/templates/school/images/topAvatarBg.png);
+    
+    grid-row: 1 / 4;
+
+    img{
+      width: 34px;
+      height: 34px;
+
+      margin: 4px 0 0 5px;
+    }
+  }
+
+  column-gap: 10px;
+  
+  
+}
+
+.link{
+  padding: 2px 64px 2px 80px;
+
+  text-align: start;
+  font-size: 11px;
+
+  color: #a1a18d;
+
+  background-color: rgba($color: #000000, $alpha: 0);
+  
+  border: none;
+  border-radius: .4em;
+  
+  text-shadow: 1px 0 1px #57683b
+}
+
+.link:hover{
+  color: #202015;
+  
+  background-color: #afb480;
+
+  text-shadow: 1px 0 1px #858475;
+
+  text-decoration: underline;
+}
